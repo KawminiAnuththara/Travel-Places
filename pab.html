@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <script defer src="header.js"></script>
+</head>
+<body>
+    <div class="oppl">
+        
+        <ul class="sril">
+            <li><img src="https://www.srilanka.travel/images/theames-new/sri-lanka.png"></li>
+            <li><a href="#">what's New</a></li>
+            <li><a href="#">What To Do</a></li>
+            <li><a href="#">Where To Go</a></li>
+            <li><a href="#">Plan Your Trip</a></li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="column" onclick="openTab('b1');" >Sun&Beach</div>
+        <div class="column" onclick="openTab('b2');" >Sri Lanka Heritage</div>
+        <div class="column" onclick="openTab('b3');" >Adventure & Sports</div>
+      </div>
+      
+      <!-- The expanding grid (hidden by default) -->
+      <div id="b1" class="containerTab" style="display:none;">
+        <!-- If you want the ability to close the container, add a close button -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+        <div>
+            <img class="img1" src="https://i.pinimg.com/564x/08/9e/72/089e72c722528da9f99caaede3ed4ba2.jpg">
+            <img class="img2" src="https://i.pinimg.com/564x/f1/d7/24/f1d72416a79cec553543b655a8260727.jpg">
+            <img class="img3" src="https://i.pinimg.com/564x/e0/29/9f/e0299f0308a4e89ed52200c4f5af4ad1.jpg"><br>
+            <img class="img3" src="https://i.pinimg.com/564x/57/e9/c1/57e9c1d119925f846499dbd7e0538bee.jpg">
+        </div>
+        
+      </div>
+      
+      <div id="b2" class="containerTab" style="display:none;">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+        <div>
+            <img class="img1" src="https://i.pinimg.com/564x/64/27/d9/6427d94253ddfe6893c6c99ff035e26f.jpg">
+            <img class="img2" src="https://i.pinimg.com/564x/b7/2e/0d/b72e0dd6256b920ff3329cba116577ae.jpg"><br>
+            <img class="img3" src="https://i.pinimg.com/564x/a1/da/11/a1da11991121b3c5985e03667d8def3f.jpg">
+            
+            <img class="img3" src="https://i.pinimg.com/564x/19/42/60/194260ceef961ff11cc28ca024f86d30.jpg">
+        </div>
+      </div>
+      
+      <div id="b3" class="containerTab" style="display:none;">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+        <div>
+            <img class="img1" src="https://i.pinimg.com/564x/6e/d0/d7/6ed0d7584d3dd5a718df6c2b6340d4c0.jpg">
+            <img class="img2" src="https://i.pinimg.com/564x/fc/b3/e3/fcb3e3fd173346241f6ead683a722ea1.jpg">
+            <img class="img3" src="https://i.pinimg.com/736x/67/ac/b4/67acb4c39d911f023eea930edbc8a8fb.jpg"><br>
+            <img class="img3" src="https://i.pinimg.com/564x/16/30/0b/16300bcb18a1c36f8958d4a57252647d.jpg">
+        </div>
+      </div>
+</body>
+</html>
